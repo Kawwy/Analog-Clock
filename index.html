@@ -1,25 +1,26 @@
 <!DOCTYPE html>
-	<html>
-	<head>
-		<meta charset="utf-8">
-		<title>CLOCK</title>
-		<link rel="stylesheet" href="style.css">
-	</head>
-	<body>
-		<div id="clock2">
-			<div class="clock" id="clock">
-				<div class="dots hr_dots"></div>
-				<div class="hour">
-					<div class="hr" id="hr"></div>
-				</div>
-					<div class="min">
-						<div class="mn" id="mn"></div>
-					</div>
-						<div class="sec">
-							<div class="sc" id="sc"></div>
-					</div>
-			</div>
-		</div>
-	   		<script src="script.js"></script>
-	</body>
-	</html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clock Testing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="time">
+        <div class="circle" style="--clr: #fff;">
+            <div class="dots sec_dots"></div>
+            <svg>
+                <circle cx="250" cy="250" r="250"></circle>
+                <circle cx="250" cy="250" r="250" id="ss"></circle>
+                <div class="hour">
+                    <div class="hr" id="hr"></div>
+                 </div>
+                <div class="min">
+                    <div class="mn" id="mn"></div>
+                </div>
+            </svg>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
